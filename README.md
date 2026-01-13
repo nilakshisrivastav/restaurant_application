@@ -1,16 +1,45 @@
-# restaurant_application
+# 🍽️ Restaurant Application (Flutter)
 
-A new Flutter project.
+**A native Flutter restaurant application with a clean and intuitive UI that allows users to browse cuisines and dishes, manage a cart, and place orders with real-time GST calculation. The app supports Hindi/English language switching and is built entirely without using any third-party libraries.**
 
-## Getting Started
+## 🚀 Features
 
-This project is a starting point for a Flutter application.
+### 🔹 Splash Screen
+- App launch screen with restaurant logo  
+- Continue button to enter the app  
 
-A few resources to get you started if this is your first Flutter project:
+### 🔹 Home Screen
+- 7 cuisine categories displayed in a horizontal scroll view  
+- Top 3 dishes with image, price, rating, and quantity selection  
+- Cart button for quick access  
+- Language switch (Hindi / English)  
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 🔹 Cuisine Screen
+- Displays dishes based on selected cuisine  
+- Increase / decrease quantity  
+- Add items to cart  
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 🔹 Cart Screen
+- View selected items  
+- Net total calculation  
+- CGST (2.5%) & SGST (2.5%)  
+- Grand total  
+- Place Order button  
+
+## 🛠️ Tech Stack
+- Flutter  
+- Dart  
+- Native Flutter widgets  
+- No third-party libraries  
+
+## 📸 Screenshots
+- Splash Screen  
+- Home Screen  
+- Cuisine Screen  
+- Cart Screen  
+
+## 🎯 Purpose
+This project is developed to demonstrate Flutter UI design, state handling, navigation, and cart functionality in a real-world restaurant application scenario.
+
+## 📌 Note
+This project is for learning and portfolio purposes.
